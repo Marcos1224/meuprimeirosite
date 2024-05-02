@@ -1,0 +1,103 @@
+body {
+    background-color: cornflowerblue;
+}
+nav li{
+    display: inline;
+}
+            
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 1300px;
+}
+nav a {
+text-transform: uppercase;
+color: black;
+font-weight: bold;
+font-size: 22px;
+text-decoration: none;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+}
+header{
+    background-color: aliceblue;
+}
+.produtos li{
+    display:inline-block;
+    text-align:center;
+    width: 30%;
+    vertical-align: top;
+    margin:0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+
+    /*
+    border-color: #000000;
+    border-width;2px;
+    border-style: solid;
+    */
+    border: 2px solid #000000;
+    border-radius:50px;
+}
+.produto-descricao{
+    font-size: 18px;
+}
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+nav a:hover {
+color: orchid;
+text-decoration: underline;
+}
+.produtos li:hover {
+border-color: hotpink;
+}
+.produtos li:active {
+    border-color: hotpink ;
+}
+footer{
+    background: url(bg.jpg);
+    text-align:center;
+}
+form {
+	margin: 40px 100px;
+}
+
+form label {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+form input, form textarea {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 5s all;
+}
+.checkbox {
+	margin: 20px 0;
+}
+.enviar:hover {
+	background: black;
+	cursor: pointer;
+	transform: scale(1.2) rotate(70deg);
+}

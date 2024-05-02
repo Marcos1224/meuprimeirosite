@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    color: rgb(0, 174, 255);
+}
+a {
+    background-color: #00a2ff; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  a {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  #stitch_store {
+    width: 20%;
+    height: 500px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10%;
+  }
+  /*aqui*/
+  div {
+    margin-left: 0%;
+    margin-right: 10%;
+  }
+  /*aqui*/
+  .itens {
+    font-style: italic;
+    font-size: large;
+  }
+  h2{
+    color: #00a2ff;
+  }
